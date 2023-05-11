@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">    
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- CSS for Easy Scroll Dots -->
+        <link rel="stylesheet" type="text/css" href="/dist/easyScrollDots.css">
+        
+
+        <!-- JS for Easy Scroll Dots -->
+        <script type="text/javascript" src="/dist/easyScrollDots.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container"> <!-- Nav bar -->
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a href="../index.html" class="navbar-brand">Emily Lin</a>
+                <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li>
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+
+        <div class="row" style="margin: 0">
+            <div class="col" style="margin-left: 10%; margin-top: 3%;">
+                <div>
+                    <h1 class="subheading">Knot</h1>
+                </div>
+                <div class="project-details" style="margin-top: 5%;">
+                    <h6 class="font-monospace">ROLE</h6>
+                    <p>User Research, Sketching, Wireframing, User Testing</p>
+                </div>
+                <hr style="width: 5%;">
+                <div class="project-details">
+                    <h6 class="font-monospace">DURATION</h6>
+                    <p>12 weeks, February - April 2023</p>
+                </div>
+                <hr style="width: 5%;">
+                <div class="project-details">
+                    <h6 class="font-monospace">TOOLS</h6>
+                    <p>Figma, Procreate</p>
+                </div>
+            </div>
+            <div class="col-lg-5" style="padding: 0;">
+                <img src="images/knot_portfolio_tb.png" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="scroll-indicator" id="section01" data-scroll-indicator-title="Background"> <!-- Scroll #1 --></div>
+        <div class="container" style="width: 75%;">
+            <div class="lead div-spacing">
+                <H6>BACKGROUND</H6>
+                <p>During my freshman year at Brown University, I enrolled in CSCI 0130 User Interfaces
+                    and User Experiences. As part of the course curriculum, my team of five, comprising
+                    of Ivy Zhang, July Qi, Fiona Liu, Natalie Zhu, and myself, undertook a group project.
+                    This case study represents the synthesis of our collective learnings and experiences from this project.
+                </p>
+            </div>
+            <div class="div-spacing body-text" style="width: 77%;">
+                <h3 class="display-6 fs-4 lh-lg">
+                    <span class="fw-bold">18 million college students</span> 
+                    enter college with a roommate. 
+                    Young adults living with roommates and suitemates struggle
+                    with effective communication and management of shared space, 
+                    often resulting in misunderstandings and negative impacts on 
+                    a student’s life from their academic performance to their 
+                    mental health. Our app addresses the issue by providing a 
+                    communication platform that streamlines requests and task 
+                    management between roommates.
+                </h3>
+            </div>
+        </div>
+
+            <div class="scroll-indicator" id="section03" data-scroll-indicator-title="User Research"> <!-- Scroll #3 --> </div>
+            <div class="container" style="width: 67%;">
+                <div class="div-spacing">
+                    <h6> I. USER RESEARCH</h6>
+                    <h3>My team and I began by conducting individual user interviews and
+                        sending out a survey to our communities, focusing on collecting
+                        anecdotes in order to understand the individual’s experience.
+                    </h3>
+                </div>
+                <div>
+                    <p class="text-black-50" style="font-size: .9rem;">KEY OBSERVATIONS</p>
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="fw-bold">🙇 Trends in Communication</h4>
+                            <p class="fw-light text-black-50">
+                                Users reported having frequent communication in general,
+                                but when it came to discussing habits, communication was
+                                low. The reasons for this were twofold: Firstly, users 
+                                felt that they already knew their roommate's habits, and
+                                secondly, they wanted to avoid potential conflicts or confrontations.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <h4 class="fw-bold">🎨 Motivation</h4>
+                            <p class="fw-light text-black-50">
+                                Users expressed not specifying boundaries before moving in due
+                                to being previously friends with their roommates or feeling that it was awkward.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-spacing">
+                    <h6>II. USER PERSONAS</h6>
+                        <h3>From our interviews and survey results, we developed two extreme user types.</h3>
+                </div>
+                <img src="images/Persona 1_ Non-Confrontational Nala.png" class="img-fluid">
+                <img src="images/Persona 2_ Busy Beatrix.png" class="img-fluid">
+
+                <div class="scroll-indicator" id="section03" data-scroll-indicator-title="Low Fidelity"></div>
+                <div class="div-spacing">
+                    <h6>III. LOW FIDELITY MOCKUP</h6>
+                        <h3>
+                            Each of our group members created an initial sketch of pages in order 
+                            to brainstorm all the different possibilities for our screens.
+                        </h3>
+                        <div class="row div-spacing">
+                            <div class="col">
+                                <h6 class="text-black-50">Core Functionality</h6>
+                            </div>
+                            <div class="col">
+                                <ol>
+                                    <li>Create tasks.</li>
+                                    <li>Break down goals into managable steps.</li>
+                                    <li>Create a vision board.</li>
+                                </ol>
+                            </div>
+                            <img src="images/Sketches_iter1.png" class="img-fluid div-spacing">
+                        </div>
+                        <div>
+                            <p class="text-black-50" style="font-size: .9rem; margin: 0;">MAJOR IMPROVEMENTS</p>
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <h4 class="fw-bold">🎊 Increasing Satisfaction</h4>
+                                    <p class="fw-light text-black-50">
+                                        To increase productivity and motivation, I opted to replace the
+                                        progress bar on the Dashboard and Goals screen with <span class="text-danger fw-bold">individual progress bars</span> for
+                                        each task. One of my classmates expressed that they found it <span class="text-danger fw-bold">
+                                        satisfying to accomplish several smaller goals</span> throughout the day,
+                                        rather than attempting to complete everything in one sitting — a 
+                                        feat that is not always possible.
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <img src="images/sketches_iter2_goals.png" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+        <script>
+            easyScrollDots({
+                'fixedNav': false,
+                'fixedNavId': '',
+                'fixedNavUpward': false,
+                'offset': 0});
+        </script>
+    </body>
+</html>
