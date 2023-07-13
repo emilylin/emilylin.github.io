@@ -1,3 +1,12 @@
+.project-title {
+    margin-left: 20%;
+}
+
+.header-img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .subheading {
     margin-top: 5%;
     margin-bottom: 3%;
@@ -38,3 +47,42 @@
 .card-title {
     margin-bottom: 3%;
 }  
+
+.rounded-rectangle {
+    border-radius: 20px;
+    background-color: #f8f9fa;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .rounded-rectangle p:last-child {
+    white-space: nowrap;
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+  }
+
+  .embed-responsive-16by9 {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+    height: 0;
+    overflow: hidden;
+  }
+
+  .embed-responsive-16by9 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-caption {
+    margin-top: 2%;
+  }
+
+  .footer-container {
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+  
